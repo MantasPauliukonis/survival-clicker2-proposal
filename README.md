@@ -13,6 +13,15 @@ Everything that is written here is meant to re-iterate and improve on the origin
 ### Stomach
 Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (like in original game).
 
+### Stamina
+Every action will drain stamina, more intense action is more stamina it will drain.
+
+## Attributes
+Number higher than 1, most likely to go to infinity.
+
+### Strength
+Defines how strong the character is.
+
 ## Effects
 All consumables when used are turned into effects. Same goes with actions that player does. Every effect has **description** of what it affects also **strength** and **duration**.
 
