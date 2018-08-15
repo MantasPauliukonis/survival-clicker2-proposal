@@ -2,7 +2,7 @@
 
 Stats have min and max values
 
-# List
+## List
 
 ### Stomach
 Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (like in original game).
