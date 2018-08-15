@@ -89,6 +89,9 @@ Stacking effects might be overpowered, looking for a solution...
 While game will have a death where player looses progress, this mechanic will be merged with prestige system. Means that player will come back with some additional bonus (TBD)
 
 ## Tools
+
+Game will support Web Workers through `.on(event, f: (data, ack))` `.emit(event, data)` messaging system. That leaves a possiblity to port into a game with server-side processing.
+
 ```
 webpack
 vuejs
