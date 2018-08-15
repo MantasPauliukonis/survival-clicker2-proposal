@@ -14,6 +14,11 @@ Please suggest more creative names for things! I'm really bad at this :)
 
 ## Stats
 
+### Money
+
+### Health
+Starting capacity is governed by **Endurance** attribute.
+
 ### Stomach
 Starting capacity is governed by **Endurance** attribute.
 
@@ -26,6 +31,8 @@ Every action will drain stamina, more intense action is more stamina it will dra
 
 ## Attributes
 Number higher than 1, most likely to go to infinity.
+
+Attributes can be boosted with effects (from consumables or what have you), but can not be permanently increased with once exception: _See: Prestige system_
 
 ### Strength
 Defines how strong the character is.
@@ -43,9 +50,10 @@ Ability to communicate with external world
 Survive more abuse in one go.
 
 ## Skills/Perks
-Each attribute has it's own set of perks. Character starts with all perks at level 0. Once unlocked levels goes up to 1.
+Each attribute has it's own set of skills. Character starts with all skills at level 0. Once unlocked levels goes up to 1 (of base level).
+Actual level is calculated adding governed attribute, active effects and base level. (formulae TBD)
 
-Perks level up as actions associated with them are executed (debatable).
+Skills level up as actions associated with them are executed (debatable).
 Actions fill experience bar on each skill.
 
 Experience needed for next level is calculated using: 
@@ -62,6 +70,8 @@ Level|Experience
 10|516~
 25|7950~
 50|758K~
+
+We also need to think about sub-skills or perks that would add additional benefits (imagine like upgrades in other incremental games)
 
 ### Drinking
 Parent attribute: **Mentality**
@@ -97,11 +107,11 @@ Addictions would have many levels of depth, like there would be a very light add
 
 ## Prestige system
 
-While game will have a death where player looses progress, this mechanic will be merged with prestige system. Means that player will come back with some additional bonuses (TBD)
+While game will have a death where player looses progress, this mechanic will be merged with prestige system. Player comes back with reincarnation points that he will be able to add to his attributes.
 
 ## Tools
 
-Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` messaging system. That leaves a possiblity to port into a game with server-side processing.
+Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` messaging system. That leaves a possibility to port into a game with server-side processing.
 
 ```
 webpack
