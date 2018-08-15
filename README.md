@@ -6,7 +6,9 @@ To completely understand the following please check the original game if you hav
 
 Everything that is written here is meant to re-iterate and improve on the original idea that will later be turned into an operational game (fingers crossed).
 
-Please discuss before making any pull requests.
+Please suggest more creative names for things! I'm really bad at this :)
+
+**Please discuss before making any pull requests.**
 
 [Play the original game here](http://survival.clicker.7777.lt)
 
@@ -24,12 +26,48 @@ Number higher than 1, most likely to go to infinity.
 ### Strength
 Defines how strong the character is.
 
+### Mentality
+Mental strength, ability to fight addiction and depression
+
+### Intelligence
+IQ
+
+### Personality
+Ability to communicate with external world
+
 ## Skills/Perks
 Each attribute has it's own set of perks. Character starts with all perks at level 0. Once unlocked levels goes up to 1.
+
 Perks level up as actions associated with them are executed (debatable).
+Actions fill experience bar on each skill.
+
+Experience needed for next level is calculated using: 
+`baseExperience * 1.2^(currentLevel - 1)`
+
+with `baseExperience` of `100`
+Level|Experience
+---|---
+1|100
+2|120
+3|144
+5|207~
+10|516~
+25|7950~
+50|758K~
+
+### Drinking
+Parent attribute: **Mentality**
+
+Yield more positive and less negative effects of alcohol
+
+### Chem-Taker
+Parent attribute: **Mentality**
+
+Yield more positive and less negative effects of suspicious chemicals and drugs
 
 ### Swimming
 Parent attribute: **Strength**
+
 (placeholder)
 
 ## Effects
