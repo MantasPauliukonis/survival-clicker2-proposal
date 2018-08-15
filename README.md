@@ -45,6 +45,7 @@ Experience needed for next level is calculated using:
 `baseExperience * 1.2^(currentLevel - 1)`
 
 with `baseExperience` of `100`
+
 Level|Experience
 ---|---
 1|100
