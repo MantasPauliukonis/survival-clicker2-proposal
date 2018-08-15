@@ -24,11 +24,12 @@ Number higher than 1, most likely to go to infinity.
 ### Strength
 Defines how strong the character is.
 
-#### Skills/Perks
+## Skills/Perks
 Each attribute has it's own set of perks. Character starts with all perks at level 0. Once unlocked levels goes up to 1.
 Perks level up as actions associated with them are executed (debatable).
 
-##### Swimming
+### Swimming
+Parent attribute: **Strength**
 (placeholder)
 
 ## Effects
