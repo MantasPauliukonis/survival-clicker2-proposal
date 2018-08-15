@@ -15,9 +15,13 @@ Please suggest more creative names for things! I'm really bad at this :)
 ## Stats
 
 ### Stomach
-Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (like in original game).
+Starting capacity is governed by **Endurance** attribute.
+
+Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (unlike the original game).
 
 ### Stamina
+Starting capacity is governed by **Strength** attribute.
+
 Every action will drain stamina, more intense action is more stamina it will drain.
 
 ## Attributes
@@ -34,6 +38,9 @@ IQ
 
 ### Personality
 Ability to communicate with external world
+
+### Endurance
+Survive more abuse in one go.
 
 ## Skills/Perks
 Each attribute has it's own set of perks. Character starts with all perks at level 0. Once unlocked levels goes up to 1.
@@ -81,16 +88,20 @@ When active this will restore players' health by 5 points of 30 seconds of game 
 Some effects might be permanent and might not have a duration (TBD)
 
 #### Stacking same type of effects
-~~When adding new effects to characters effect list if same type is encountered, strength will be averaged out based on duration.~~
-Stacking effects might be overpowered, looking for a solution...
+Each effect type will have a flag if it is stack-able. If it's enabled many instances of the same effect can exist concurrently. If it is not enabled however (spinning gears)
+
+## Addictions
+Original game had chemical items that would yield higher gains for permanent damage effects. I think we should keep this to some extent while making benefits higher and also adding addictive effects.
+
+Addictions would have many levels of depth, like there would be a very light addiction with very small withdrawal effects and if addiction where to progress those effects would become harsher. Of course progress shouldn't be crippled by this, unless corresponding drug is not used (withdrawal)
 
 ## Prestige system
 
-While game will have a death where player looses progress, this mechanic will be merged with prestige system. Means that player will come back with some additional bonus (TBD)
+While game will have a death where player looses progress, this mechanic will be merged with prestige system. Means that player will come back with some additional bonuses (TBD)
 
 ## Tools
 
-Game will support Web Workers through `.on(event, f: (data, ack))` `.emit(event, data)` messaging system. That leaves a possiblity to port into a game with server-side processing.
+Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` messaging system. That leaves a possiblity to port into a game with server-side processing.
 
 ```
 webpack
