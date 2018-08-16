@@ -15,39 +15,52 @@ Please suggest more creative names for things! I'm really bad at this :)
 ## Stats
 
 ### Money
+(WIP)
 
-### Health
-Starting capacity is governed by **Endurance** attribute.
+## Organs
+
+They are vital! Well at least most of them.
+
+Organs are optional and some of them are only unlocked at some later time in game.
+
+Organ performance can be boosted with effects (from consumables or what have you), but can not be permanently increased with once exception: *See: Prestige system*
+
+### Brain
+Is container: *No*
+Is vital: **Yes**
+
+### Muscles
+Is container: *No*
+Is vital: *No*
+
+Physical strength
+
+### Skeleton
+Is container: *No*
+Is vital: **Yes**
+
+### Blood
+Is container: **Yes**
+Is vital: **Yes**
+
+### Lungs
+Is container: **Yes**
+Is vital: *No*
+
+Allows executing more actions in short bursts
+
+### Heart
+Is container: *No*
+Is vital: **Yes**
+
+Keeps character alive
 
 ### Stomach
-Starting capacity is governed by **Endurance** attribute.
+Is container: **Yes**
+Is vital: *No*
 
 Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (unlike the original game).
 
-### Stamina
-Starting capacity is governed by **Strength** attribute.
-
-Every action will drain stamina, more intense action is more stamina it will drain.
-
-## Attributes
-Number higher than 1, most likely to go to infinity.
-
-Attributes can be boosted with effects (from consumables or what have you), but can not be permanently increased with once exception: _See: Prestige system_
-
-### Strength
-Defines how strong the character is.
-
-### Mentality
-Mental strength, ability to fight addiction and depression
-
-### Intelligence
-IQ
-
-### Personality
-Ability to communicate with external world
-
-### Endurance
-Survive more abuse in one go.
 
 ## Skills/Perks
 Each attribute has it's own set of skills. Character starts with all skills at level 0. Once unlocked levels goes up to 1 (of base level).
