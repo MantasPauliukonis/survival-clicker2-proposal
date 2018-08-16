@@ -37,11 +37,13 @@ Physical strength
 
 ### Skeleton
 Is container: *No*
-Is vital: **Yes**
+Is vital: *No*
 
-### Blood
+### Veins
 Is container: **Yes**
 Is vital: **Yes**
+
+They contain blood
 
 ### Lungs
 Is container: **Yes**
@@ -55,12 +57,22 @@ Is vital: **Yes**
 
 Keeps character alive
 
+### Nerves
+Is container: *No*
+Is vital: **Yes**
+
 ### Stomach
 Is container: **Yes**
 Is vital: *No*
 
 Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (unlike the original game).
 
+### Uterus
+Is container: *No*
+Is vital: *No*
+High-grade item
+
+Allows to spawn children
 
 ## Skills/Perks
 Each attribute has it's own set of skills. Character starts with all skills at level 0. Once unlocked levels goes up to 1 (of base level).
@@ -87,17 +99,17 @@ Level|Experience
 We also need to think about sub-skills or perks that would add additional benefits (imagine like upgrades in other incremental games)
 
 ### Drinking
-Parent attribute: **Mentality**
+Organ: **Stomach**
 
 Yield more positive and less negative effects of alcohol
 
 ### Chem-Taker
-Parent attribute: **Mentality**
+Organ: **Nerves**
 
 Yield more positive and less negative effects of suspicious chemicals and drugs
 
 ### Swimming
-Parent attribute: **Strength**
+Organ: **Lungs**
 
 (placeholder)
 
