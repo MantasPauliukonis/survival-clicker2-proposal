@@ -119,4 +119,7 @@ vuejs
 bootstrap-vue
 typescript
 tslint
+rxjs
+jest
+lodash
 ```
