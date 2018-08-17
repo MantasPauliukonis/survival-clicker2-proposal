@@ -172,6 +172,10 @@ Each addictive consumable would have an addiction counter, which would increase 
 
 While game will have a death where player looses progress, this mechanic will be merged with prestige system. Player comes back with reincarnation points that he will be able to add to his starting organs.
 
+There are two ways that I'm thinking this:
+* Upon death player chooses a scenario based on the points he's got
+* Player restarts and after some time game offers a "dramatic life incidents" that will make those prestige points active
+
 ## Offline progress
 
 A must. Though can be quite a challenge to implement considering all the processes happening at the same time that are dependant on each other.
@@ -184,7 +188,13 @@ Complete x
 
 Has unlocking order (dependency?)
 
-**TODO:** Reward?
+**TODO:** What's for reward?
+
+## Translations
+
+Translations should change based on characters' state in-game. There should be a set of normal translations and also sets of state-specific translations that would override normal (if provided of course) in certain scenarios where this state counts as active.
+
+*(example needed)*
 
 ## Tools
 
