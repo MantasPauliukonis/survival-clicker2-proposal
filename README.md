@@ -127,8 +127,8 @@ Allows to use alcoholic drinks
 #### Perks/Upgrades
 
 ##### Beer-man
-Level: 5
-Cost: *?*
+Level: `5`
+Cost: `*?*`
 
 Beer effects are 10% stronger
 
@@ -140,8 +140,8 @@ Allows to use drugs
 #### Perks/Upgrades
 
 ##### Filtered Intake
-Level: 5
-Cost: *?*
+Level: `5`
+Cost: `*?*`
 
 Lungs suffer 5% less when smoking
 
@@ -158,8 +158,8 @@ Allows for transplantation of organs in the body
 #### Perks/Upgrades
 
 ##### Organ Hot Swap
-Level: 20
-Cost: *?*
+Level: `20`
+Cost: `*?*`
 
 Transplantation side-effects are reduced by 10%
 
