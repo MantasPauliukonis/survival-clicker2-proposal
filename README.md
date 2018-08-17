@@ -21,7 +21,7 @@ Please suggest more creative names for things! I'm really bad at this :)
 
 They are vital! Well at least most of them.
 
-Organs are optional and some of them are only unlocked at some later time in game.
+Some optional organs are only unlocked at some later time in game.
 
 Organ performance can be boosted with effects (from consumables or what have you), but can not be permanently increased (talking about organ level) with once exception: *See: Prestige system*
 
@@ -80,8 +80,10 @@ Is vital: **Yes**
 Keeps character alive
 
 ### Nerves
-Containers: *No*
+Containers: **Stress** **Depression**
 Is vital: **Yes**
+
+Higher the stress and/or depression faster the nerves degrade. So in the end player would be forced to used a bunch of drugs keep itself balanced during gameplay.
 
 ### Stomach
 Containers: **Digestible content**
@@ -94,7 +96,7 @@ Containers: **Fetus progress**
 Is vital: *No*
 Notes: **High-grade item**
 
-Allows to spawn children based on it's and organism level(s)
+Allows to spawn children based on it's and organism level(s). For example if character is a drug addict then children will be too.
 
 ## Skills/Perks
 Each organ has it's own set of skills. Character starts with all skills at level 0 (hidden by default). Once unlocked levels goes up to 1 (of base level).
@@ -190,6 +192,14 @@ Each effect type will have a flag if it is stack-able. If it's enabled many inst
 "Character passes out"
 
 Once taken, game immediately calculates game progress of x seconds and gives it to player.
+
+## Automation
+
+Players can setup auto use feature that will use consumables automatically on-demand. Should work offline too.
+
+## The Inevitable
+
+Every one dies someday. That should be no different, especially at lower levels. Later on game will offer more features to extend characters lifetime.
 
 ## Addictions
 
