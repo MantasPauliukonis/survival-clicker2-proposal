@@ -23,7 +23,25 @@ They are vital! Well at least most of them.
 
 Organs are optional and some of them are only unlocked at some later time in game.
 
-Organ performance can be boosted with effects (from consumables or what have you), but can not be permanently increased with once exception: *See: Prestige system*
+Organ performance can be boosted with effects (from consumables or what have you), but can not be permanently increased (talking about organ level) with once exception: *See: Prestige system*
+
+Organs can be bought and transplanted, Character could have more instances of the same organ (later game)
+
+#### Variables
+
+`Organ level` - level of the organ
+
+`Maximum health` - Determines maximum health value of the organ, deteriorates over time and can not be restored (organ must be transplanted). Starting value is based on organ level
+
+`Current health` - current health of the organ, impacts function performance
+
+If organ has a container(s): *(Open to discussion)*
+
+`Container name` - example: for veins it's blood and for lungs it's air
+
+`Container size` - Maximum amount of *stuff* that can be added (ex. stomach - food, veins - blood, lungs - air and etc.). Starting container size is based of organ level
+
+`Container used` - Amount of *stuff* currently in container
 
 ### Brain
 Is container: *No*
@@ -70,9 +88,9 @@ Every consumable has a weight value which goes into stomach. Stomach can not be 
 ### Uterus
 Is container: *No*
 Is vital: *No*
-High-grade item
+Notes: **High-grade item**
 
-Allows to spawn children
+Allows to spawn children based on it's and organism level(s)
 
 ## Skills/Perks
 Each attribute has it's own set of skills. Character starts with all skills at level 0. Once unlocked levels goes up to 1 (of base level).
@@ -123,7 +141,16 @@ When active this will restore players' health by 5 points of 30 seconds of game 
 Some effects might be permanent and might not have a duration (TBD)
 
 #### Stacking same type of effects
-Each effect type will have a flag if it is stack-able. If it's enabled many instances of the same effect can exist concurrently. If it is not enabled however (spinning gears)
+Each effect type will have a flag if it is stack-able. If it's enabled many instances of the same effect can exist concurrently. If it is not enabled however overlapping effects might be dismissed or go into a queue until other ones expire (needs discussion)
+
+## Consumables
+
+### Drugs
+
+#### Time passer drug (need a name)
+"Character passes out"
+
+Once taken, game immediately calculates game progress of x seconds and gives it to player.
 
 ## Addictions
 Original game had chemical items that would yield higher gains for permanent damage effects. I think we should keep this to some extent while making benefits higher and also adding addictive effects.
@@ -133,6 +160,12 @@ Addictions would have many levels of depth, like there would be a very light add
 ## Prestige system
 
 While game will have a death where player looses progress, this mechanic will be merged with prestige system. Player comes back with reincarnation points that he will be able to add to his attributes.
+
+## Offline progress
+
+A must. Though can be quite a challenge to implement considering all processes happening at the same time dependant on each other.
+
+If character simulation is impossible to calculate offline, we can suspend the character and keeps other processes running like investment and such. To player we can explain that the character goes into some sort of cryotank while offline. However I would avoid this all together if possible.
 
 ## Tools
 
