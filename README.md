@@ -80,7 +80,7 @@ Containers: *No*
 Is vital: **Yes**
 
 ### Stomach
-Containers: **Digestable content**
+Containers: **Digestible content**
 Is vital: *No*
 
 Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (unlike the original game).
@@ -99,6 +99,8 @@ Actual level is calculated adding governed attribute, active effects and base le
 Skills level up as actions associated with them are executed *(debatable)*.
 Actions fill experience bar of each corresponding skill.
 
+As skill level increases various perks are unlocked.
+
 Experience needed for next level is calculated using: 
 `baseExperience * 1.2^(currentLevel - 1)`
 
@@ -115,26 +117,51 @@ Level|Experience
 50|758K~
 
 **TODO:** We need to think about the way that these skills will be unlocked
+**TODO:** Perks of skills unlock cost??
 
 ### Drinking
 Organ: **Stomach**
 
-Yield more positive and less negative effects of alcohol
+Allows to use alcoholic drinks
 
-### Chem-Taker
+#### Perks/Upgrades
+
+##### Beer-man
+Level: 5
+Cost: *?*
+
+Beer effects are 10% stronger
+
+### Drugs
 Organ: **Nerves**
 
-Yield more positive and less negative effects of suspicious chemicals and drugs. Increases addiction resistance
+Allows to use drugs
+
+#### Perks/Upgrades
+
+##### Filtered Intake
+Level: 5
+Cost: *?*
+
+Lungs suffer 5% less when smoking
 
 ### Swimming
 Organ: **Lungs**
 
 (placeholder)
 
-### Organ Hot Swap
+### Transplantation
 Organ: **Brain**
 
-Survive organ transplantations better, also find better services to execute the operation.
+Allows for transplantation of organs in the body
+
+#### Perks/Upgrades
+
+##### Organ Hot Swap
+Level: 20
+Cost: *?*
+
+Transplantation side-effects are reduced by 10%
 
 ## Effects
 All consumables when used are turned into effects. Same goes with actions that player does. Every effect has **description** of what it affects also **strength** and **duration**.
