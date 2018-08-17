@@ -57,8 +57,12 @@ Physical strength
 Containers: *No*
 Is vital: *No*
 
+### Skin
+Containers: **Hydration**
+Is vital: *No*
+
 ### Veins
-Containers: **Blood** **Energy** **Hydration**
+Containers: **Blood** **Energy**
 Is vital: **Yes**
 
 They contain blood
@@ -201,7 +205,7 @@ While game will have a death where player looses progress, this mechanic will be
 
 There are two ways that I'm thinking this:
 * Upon death player chooses a scenario based on the points he's got
-* Player restarts and after some time game offers a "dramatic life incidents" that will make those prestige points active
+* Player restarts and after some time game offers a "dramatic life incidents" that will make use of those prestige points
 
 ## Offline progress
 
