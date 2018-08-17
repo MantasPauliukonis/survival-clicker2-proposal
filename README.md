@@ -195,11 +195,13 @@ Once taken, game immediately calculates game progress of x seconds and gives it 
 
 ## Automation
 
-Players can setup auto use feature that will use consumables automatically on-demand. Should work offline too.
+Players can setup auto use feature that will use consumables automatically on-demand. Should work offline too. *See: Offline progress*
+Later game automation will always be preferred, so game should be designed around that fact.
+Automated actions should still rase skill XP, however levels ups only occur while online.
 
 ## The Inevitable
 
-Every one dies someday. That should be no different, especially at lower levels. Later on game will offer more features to extend characters lifetime.
+Everyone has to face the death, especially at lower levels. Later on game will offer more features to extend characters lifetime and possibly making it completely optional to die.
 
 ## Addictions
 
@@ -233,7 +235,7 @@ Has unlocking order (dependency?)
 
 ## Translations
 
-Translations should change based on characters' state in-game. There should be a set of normal translations and also sets of state-specific translations that would override normal (if provided of course) in certain scenarios where this state counts as active.
+Translations should change based on characters' state in-game. There should be a set of normal translations and also sets of state-specific translations that would override normal (if provided of course) in certain scenarios where this state counts as active. This must not confuse player too much so the main translations like item names shouldn't be changed, only descriptions and such.
 
 *(example needed)*
 
