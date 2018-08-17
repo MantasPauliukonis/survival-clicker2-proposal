@@ -251,4 +251,5 @@ rxjs
 jest
 lodash
 sass
+swarm-numberformat
 ```
