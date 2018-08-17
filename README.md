@@ -9,6 +9,7 @@ Everything that is written here is meant to re-iterate and improve on the origin
 Please suggest more creative names for things! I'm really bad at this :)
 
 **Please discuss before making any pull requests.**
+If you imagine it in some other way please fork and share!
 
 [Play the original game here](http://survival.clicker.7777.lt)
 
@@ -242,6 +243,8 @@ Translations should change based on characters' state in-game. There should be a
 ## Tools
 
 Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` messaging system. That leaves a possibility to port into a game with server-side processing. *Or suggest a better solution*
+
+Still deciding on decimal implementation. Please suggest.
 
 ```
 webpack
