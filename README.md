@@ -63,57 +63,57 @@ If organ has a container(s): *(Open to discussion)*
 `Container used` - Amount of *stuff* currently in container
 
 ### Brain
-Containers: *No*
-Is vital: **Yes**
+**Containers:** *No*
+**Is vital:** Yes
 
 ### Muscles
-Containers: *No*
-Is vital: *No*
+**Containers:** *No*
+**Is vital:** *No*
 
 Physical strength
 
 ### Skeleton
-Containers: *No*
-Is vital: *No*
+**Containers:** *No*
+**Is vital:** *No*
 
 ### Skin
-Containers: **Hydration**
-Is vital: *No*
+**Containers:** Hydration
+**Is vital:** *No*
 
 ### Veins
-Containers: **Blood** **Energy**
-Is vital: **Yes**
+**Containers:** Blood, Energy
+**Is vital:** Yes
 
 They contain blood
 
 ### Lungs
-Containers: **Air/Stamina**
-Is vital: *No*
+**Containers:** Air/Stamina
+**Is vital:** *No*
 
 Allows executing more actions in short bursts
 
 ### Heart
-Containers: *No*
-Is vital: **Yes**
+**Containers:** *No*
+**Is vital:** Yes
 
 Keeps character alive
 
 ### Nerves
-Containers: **Stress** **Depression**
-Is vital: **Yes**
+**Containers:** Stress, Depression
+**Is vital:** Yes
 
 Higher the stress and/or depression faster the nerves degrade. So in the end player would be forced to used a bunch of drugs keep itself balanced during gameplay.
 
 ### Stomach
-Containers: **Digestible content**
-Is vital: *No*
+**Containers:** Digestible content
+**Is vital:** *No*
 
 Every consumable has a weight value which goes into stomach. Stomach can not be overfilled or there will be negative side-effects if done so. There will be no penalty for empty stomach (unlike the original game).
 
 ### Uterus
-Containers: **Fetus progress**
-Is vital: *No*
-Notes: **High-grade item**
+**Containers:** Fetus progress
+**Is vital:** *No*
+**Notes:** High-grade item
 
 Allows to spawn children based on it's and organism level(s). For example if character is a drug addict then children will be too.
 
@@ -147,7 +147,7 @@ Level|Experience
 **TODO:** Perks of skills unlock cost??
 
 ### Drinking
-Organ: **Stomach**
+**Organ:** Stomach
 
 Allows to use alcoholic drinks
 
@@ -160,7 +160,7 @@ Cost: `*?*`
 Beer effects are 10% stronger
 
 ### Drugs
-Organ: **Nerves**
+**Organ:** Nerves
 
 Allows to use drugs
 
@@ -173,12 +173,12 @@ Cost: `*?*`
 Lungs suffer 5% less when smoking
 
 ### Swimming
-Organ: **Lungs**
+**Organ:** Lungs
 
 (placeholder)
 
 ### Transplantation
-Organ: **Brain**
+**Organ:** Brain
 
 Allows for transplantation of organs in the body
 
@@ -201,7 +201,7 @@ Cost: `*?*`
 Children born from uterus can reproduce.
 
 ### Regeneration
-Organ: **Veins**
+**Organ:** Veins
 
 Allows organism to regenerate by itself. Base skill only adds things like blood regeneration etc.
 
@@ -236,16 +236,16 @@ For consumable to appear in the list, it may require some perk or skill to be un
 Each jobs requires a minimum organ level.
 
 #### Beggar
-Required: *Low Brain Level*
-Gain: *0.1$*
-Cost: *Some stamina*
+**Required:** *Low Brain Level*
+**Gain:** *0.1$*
+**Cost:** *Some stamina*
 
 Requires to be drunk
 
 #### Car Washing Beggar
-Required: *Low Brain Level*
-Gain: *0.2$*
-Cost: *Some stamina*
+**Required:** *Low Brain Level*
+**Gain:** *0.2$*
+**Cost:** *Some stamina*
 
 Requires to be moderately drunk or under influence of drugs
 
