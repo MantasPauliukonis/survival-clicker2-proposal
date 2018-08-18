@@ -21,12 +21,20 @@ Having such condition player can only do a limited amount of actions. Sooner or 
 * Having more reincarnation points player gains access to more birth scenarios that have better starting condition such as starting organs and their condition allowing him to unlock more skills and in turn actions.
 * Progression is awfully slow without using any drugs so therefore player is forced to use some sort of boosters that will enhance characters ability to be productive.
 * It's up to player what path he wants to choose. Job and action availability is dependant on skills and skills are unlocked by the player in order he chooses.
+* Later character can implant itself a uterus which allows him to create children than can be used as a resource
+
 *To be continued...*
 
 ## Stats
 
 ### Money
 (WIP)
+
+### Reincarnation points
+Gained while dying
+
+### Crime level
+Have to pay fines if ignored then sentenced.
 
 ## Organs
 
@@ -184,6 +192,12 @@ Cost: `*?*`
 
 Adds ability to sell organs (if used in conjunction with *Advanced Regeneration*, can be a source of income)
 
+##### The Great Golden Uterus
+Level: `100`
+Cost: `*?*`
+
+Children born from uterus can reproduce.
+
 ### Regeneration
 Organ: **Veins**
 
@@ -211,9 +225,27 @@ Some effects might be permanent and might not have a duration (TBD)
 #### Stacking same type of effects
 Each effect type will have a flag if it is stack-able. If it's enabled many instances of the same effect can exist concurrently. If it is not enabled however overlapping effects might be dismissed or go into a queue until other ones expire (needs discussion)
 
-## Consumables
+## Consumables/Actions
 
 For consumable to appear in the list, it may require some perk or skill to be unlocked and taken.
+
+### Jobs
+
+Each jobs requires a minimum organ level.
+
+#### Beggar
+Required: *Low Brain Level*
+Gain: *0.1$*
+Cost: *Some stamina*
+
+Requires to be drunk
+
+#### Car Washing Beggar
+Required: *Low Brain Level*
+Gain: *0.2$*
+Cost: *Some stamina*
+
+Requires to be moderately drunk or under influence of drugs
 
 ### Food/Water
 (all the foods ranging from sewage outlets to high quality ones)
