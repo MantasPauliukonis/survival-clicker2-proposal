@@ -36,6 +36,9 @@ Gained while dying
 ### Crime level
 Have to pay fines if ignored then sentenced.
 
+### Taxes
+Good ol' ever increasing taxes. I think they may need some more sophisticated logic under the hood.
+
 ## Organs
 
 They are vital! Well at least most of them.
@@ -141,7 +144,6 @@ Level|Experience
 25|7950~
 50|758K~
 
-
 **TODO:** We need to think about the way that these skills will be unlocked
 
 **TODO:** Perks of skills unlock cost??
@@ -222,7 +224,7 @@ For example: `Restore Health 5 pts for 30 seconds`
 
 When active this will restore players' health by 5 points of 30 seconds of game time.
 
-Some effects might be permanent and might not have a duration (TBD)
+Some effects might be permanent and might not have a duration *(TBD)*
 
 #### Stacking same type of effects
 Each effect type will have a flag if it is stack-able. If it's enabled many instances of the same effect can exist concurrently. If it is not enabled however overlapping effects might be dismissed or go into a queue until other ones expire (needs discussion)
@@ -233,7 +235,7 @@ For consumable to appear in the list, it may require some perk or skill to be un
 
 ### Jobs
 
-Each jobs requires a minimum organ level.
+Each job requires a minimum organ level.
 
 #### Beggar
 **Required:** *Low Brain Level*
@@ -283,8 +285,8 @@ Each addictive consumable would have an addiction counter, which would increase 
 While game will have a death where player looses progress, this mechanic will be merged with prestige system. Player comes back with reincarnation points that he will be able to add to his starting organs.
 
 There are two ways that I'm thinking this:
-* Upon death player chooses a scenario based on the points he's got
-* Player restarts and after some time game offers a "dramatic life incidents" that will make use of those reincarnation points
+* Upon death player chooses a scenario (of his next life) based on the points he's got
+* Player restarts and after some time game offers a "dramatic life accidents" that will make use of those reincarnation points
 
 ## Offline progress
 
@@ -308,7 +310,7 @@ Translations should change based on characters' state in-game. There should be a
 
 ## Tooling
 
-Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` or similar messaging system. That leaves a possibility for server-side processing support.
+Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` or similar messaging system. That leaves a possibility for a server-side processing support.
 
 ```
 webpack
