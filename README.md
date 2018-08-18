@@ -308,7 +308,7 @@ Translations should change based on characters' state in-game. There should be a
 
 ## Tooling
 
-Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` or similar messaging system. That leaves a possibility for a server-side processing support.
+Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` or similar messaging system. That leaves a possibility for server-side processing support.
 
 ```
 webpack
