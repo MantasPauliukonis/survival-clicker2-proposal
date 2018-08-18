@@ -16,11 +16,11 @@ If you imagine it in some other way please fork and share!
 ## TL;DR
 ### This is how game-play would look like
 
-* Character is born with many birth defects and some of the organs are stolen. So only the vital organs are in place
-Having such condition player can only do a limited amount of actions. Sooner or later character will die or commit a suicide granting him some *Reincarnation points*
+* Character is born with many birth defects and some of the organs are stolen. So only the vital organs are in place. Having such condition player can only do a limited amount of actions. Sooner or later character will die or commit a suicide granting him some *Reincarnation points*
 * Having more reincarnation points player gains access to more birth scenarios that have better starting condition such as starting organs and their condition allowing him to unlock more skills and in turn actions.
 * Progression is awfully slow without using any drugs so therefore player is forced to use some sort of boosters that will enhance characters ability to be productive.
 * It's up to player what path he wants to choose. Job and action availability is dependant on skills and skills are unlocked by the player in order he chooses.
+* Player will gain access to auto-injection systems that will automatically add required substances to the body without needing to constantly look at stats
 * Later character can implant itself a uterus which allows him to create children than can be used as a resource
 
 *To be continued...*
@@ -141,7 +141,9 @@ Level|Experience
 25|7950~
 50|758K~
 
+
 **TODO:** We need to think about the way that these skills will be unlocked
+
 **TODO:** Perks of skills unlock cost??
 
 ### Drinking
