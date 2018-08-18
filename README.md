@@ -8,7 +8,7 @@ Everything that is written here is meant to re-iterate and improve on the origin
 
 Please suggest more creative names for things! I'm really bad at this :)
 
-**Please suggest changes and do correct me if I'm totally off somewhere**
+**Please suggest changes and do correct me if I'm totally off somewhere.**
 If you imagine it in some other way please fork and share!
 
 [Play the original game here](http://survival.clicker.7777.lt)
