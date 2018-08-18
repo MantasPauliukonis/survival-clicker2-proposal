@@ -13,6 +13,16 @@ If you imagine it in some other way please fork and share!
 
 [Play the original game here](http://survival.clicker.7777.lt)
 
+## TL;DR
+### This is how game-play would look like
+
+* Character is born with many birth defects and some of the organs are stolen. So only the vital organs are in place
+Having such condition player can only do a limited amount of actions. Sooner or later character will die or commit a suicide granting him some *Reincarnation points*
+* Having more reincarnation points player gains access to more birth scenarios that have better starting condition such as starting organs and their condition allowing him to unlock more skills and in turn actions.
+* Progression is awfully slow without using any drugs so therefore player is forced to use some sort of boosters that will enhance characters ability to be productive.
+* It's up to player what path he wants to choose. Job and action availability is dependant on skills and skills are unlocked by the player in order he chooses.
+*To be continued...*
+
 ## Stats
 
 ### Money
@@ -168,6 +178,25 @@ Allows for transplantation of organs in the body
 Level: `20`
 Cost: `*?*`
 
+##### Organ Mining
+Level: `50`
+Cost: `*?*`
+
+Adds ability to sell organs (if used in conjunction with *Advanced Regeneration*, can be a source of income)
+
+### Regeneration
+Organ: **Veins**
+
+Allows organism to regenerate by itself. Base skill only adds things like blood regeneration etc.
+
+#### Perks/Upgrades
+
+##### Advanced Regeneration
+Level: `50`
+Cost: `*?*`
+
+Organism can generate instances of organs
+
 Transplantation side-effects are reduced by 10%
 
 ## Effects
@@ -184,6 +213,8 @@ Each effect type will have a flag if it is stack-able. If it's enabled many inst
 
 ## Consumables
 
+For consumable to appear in the list, it may require some perk or skill to be unlocked and taken.
+
 ### Food/Water
 (all the foods ranging from sewage outlets to high quality ones)
 
@@ -198,11 +229,12 @@ Once taken, game immediately calculates game progress of x seconds and gives it 
 
 Players can setup auto use feature that will use consumables automatically on-demand. Should work offline too. *See: Offline progress*
 Later game automation will always be preferred, so game should be designed around that fact.
+Organ transplantations and sales should also be automatic (with a certain perk)
 Automated actions should still rase skill XP, however levels ups only occur while online.
 
 ## The Inevitable
 
-Everyone has to face the death, especially at lower levels. Later on game will offer more features to extend characters lifetime and possibly making it completely optional to die.
+Everyone has to face the death, especially at lower levels. Later on game will offer more features to extend characters lifetime and possibly making it completely optional to die. I know that forced prestige mechanic is not the best idea, but I want to keep the similar fragility like in the original game. 
 
 ## Addictions
 
@@ -218,7 +250,7 @@ While game will have a death where player looses progress, this mechanic will be
 
 There are two ways that I'm thinking this:
 * Upon death player chooses a scenario based on the points he's got
-* Player restarts and after some time game offers a "dramatic life incidents" that will make use of those prestige points
+* Player restarts and after some time game offers a "dramatic life incidents" that will make use of those reincarnation points
 
 ## Offline progress
 
@@ -232,7 +264,7 @@ Complete x
 
 Has unlocking order (dependency?)
 
-**TODO:** What's for reward?
+Reward: optional, but can grant bonus effects
 
 ## Translations
 
