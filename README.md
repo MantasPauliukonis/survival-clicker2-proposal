@@ -8,7 +8,7 @@ Everything that is written here is meant to re-iterate and improve on the origin
 
 Please suggest more creative names for things! I'm really bad at this :)
 
-**Please discuss before making any pull requests.**
+**Please suggest changes and do correct me if I'm totally off somewhere**
 If you imagine it in some other way please fork and share!
 
 [Play the original game here](http://survival.clicker.7777.lt)
@@ -208,7 +208,7 @@ Everyone has to face the death, especially at lower levels. Later on game will o
 
 Original game had chemical items that would yield higher gains for permanent damage effects. I think we should keep this to some extent while making benefits higher and also adding addictive effects.
 
-Addictions would have many levels of depth, like there would be a very light addiction with very small withdrawal effects and if addiction where to progress those effects would become harsher. Of course progress shouldn't be crippled by this, unless corresponding drug is not used (withdrawal). Effectiveness should increase with addiction level too, meaning that player have "invest" into each addictive chemical. However player might use some additional "medicine" to slow down this level increase so to reduce withdrawal when not using.
+Addictions would have many levels of depth, like there would be a very light addiction with very small withdrawal effects and if addiction where to progress those effects would become harsher. Of course progress shouldn't be crippled by this, unless corresponding drug is not used (withdrawal). Effectiveness should increase with addiction level too, meaning that player have "invest" into each addictive chemical (though this should vary from substance to substance). However player might use some additional "medicine" to slow down this level increase so to reduce withdrawal when not using.
 
 Each addictive consumable would have an addiction counter, which would increase with use.
 
