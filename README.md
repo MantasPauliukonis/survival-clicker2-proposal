@@ -121,7 +121,7 @@ Allows to spawn children based on it's and organism level(s). For example if cha
 Each organ has it's own set of skills. Character starts with all skills at level 0 (hidden by default). Once unlocked levels goes up to 1 (of base level).
 Actual level is calculated adding governed attribute, active effects and base level. *(formulae TBD)*
 
-Skills level up as actions associated with them are executed *(debatable)*.
+Skills level up as actions associated with them are executed *(debatable and should be discussed)*.
 Actions fill experience bar of each corresponding skill.
 
 As skill level increases various perks are unlocked.
