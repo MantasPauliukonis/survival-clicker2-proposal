@@ -55,7 +55,7 @@ Organs can be bought and transplanted, Character could have more instances of th
 
 `Maximum health` - Determines maximum health value of the organ, deteriorates over time and can not be restored (organ must be transplanted). Starting value is based on organ level
 
-`Current health` - current health of the organ, impacts function performance
+`Current health` - current health of the organ, impacts performance
 
 If organ has a container(s): *(Open to discussion)*
 
