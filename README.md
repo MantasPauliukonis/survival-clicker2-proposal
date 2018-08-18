@@ -283,7 +283,6 @@ bootstrap-vue
 typescript
 tslint
 rxjs
-jest
 lodash
 sass
 swarm-numberformat
