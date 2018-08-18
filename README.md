@@ -28,7 +28,7 @@ If you imagine it in some other way please fork and share!
 ## Stats
 
 ### Money
-(WIP)
+Get paid for jobs and buy stuff, preferably drugs.
 
 ### Reincarnation points
 Gained while dying
