@@ -256,7 +256,7 @@ Requires to be moderately drunk or under influence of drugs
 
 ### Drugs
 
-#### Time passer drug (need a name)
+#### Knock-Out
 "Character passes out"
 
 Once taken, game immediately calculates game progress of x seconds and gives it to player.
