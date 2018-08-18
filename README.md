@@ -244,8 +244,6 @@ Translations should change based on characters' state in-game. There should be a
 
 Game will support Web Workers through `.on(event, f: (data, ack))` and `.emit(event, data)` messaging system. That leaves a possibility to port into a game with server-side processing. *Or suggest a better solution*
 
-Still deciding on decimal implementation. Please suggest.
-
 ```
 webpack
 vuejs
@@ -257,4 +255,5 @@ jest
 lodash
 sass
 swarm-numberformat
+decimal.js
 ```
