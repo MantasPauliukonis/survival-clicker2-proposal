@@ -1,5 +1,8 @@
 # survival-clicker2-proposal
 
+## [(Deprecated) Visit here for a latest version](https://github.com/MantasPauliukonis/survival-clicker2)
+
+
 ## Intro
 
 To completely understand the following please check the original game if you haven't already done so.
