@@ -31,7 +31,7 @@ If you imagine it in some other way please fork and share!
 Get paid for jobs and buy stuff, preferably drugs.
 
 ### Reincarnation points
-Gained while dying
+Gained while dying. Creative deaths are rewarded.
 
 ### Crime level
 Have to pay fines if ignored then sentenced.
